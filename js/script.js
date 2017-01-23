@@ -44,7 +44,7 @@
           "a > b = " + (a > b) + "\n" +
           "a < b = " + (a < b) + "\n" +
           "!a && !c = " + (!a && !c) + "\n" +
-          "!a || !c = " + (!a || !c) + "\n" +);
+          "!a || !c = " + (!a || !c) + "\n");
           
 //Task 2
 
@@ -92,11 +92,11 @@ If sum is an even number print the output confirming that, for example:*/
 
     var sum = 0;
     var sum = numbers[0] + numbers[4];
-
+	var output = numbers[0] + " + " + numbers[4] + " = " + sum;
     if(sum % 2 == 1){
-        alert("This is an odd number.") 
+        alert(output + "\n This is an odd number."  ) 
     }else if(sum % 2 ==0){
-    alert("This is an even number.")
+    alert(output + "\n This is an even number.")
     
 }
 
